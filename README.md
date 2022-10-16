@@ -1,4 +1,4 @@
-[![Codemagic build status](https://api.codemagic.io/apps/634c02e122ff8dc798e872d0/default-workflow/status_badge.svg)](https://codemagic.io/apps/634c02e122ff8dc798e872d0/default-workflow/latest_build)
+[![Codemagic build status](https://api.codemagic.io/apps/634bf2e2816f0c6add8c7f51/634bf2e2816f0c6add8c7f50/status_badge.svg)](https://codemagic.io/apps/634bf2e2816f0c6add8c7f51/634bf2e2816f0c6add8c7f50/latest_build)
 
 # ditonton
 
