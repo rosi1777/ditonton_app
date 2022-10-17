@@ -12,6 +12,7 @@ import 'package:movie/presentation/bloc/top_rated_movies_bloc.dart';
 import 'package:movie/presentation/pages/movie_detail_page.dart';
 import 'package:movie/presentation/pages/home_movie_page.dart';
 import 'package:movie/presentation/pages/popular_movies_page.dart';
+import 'package:search/presentation/pages/tv_search_page.dart';
 import 'package:tv/presentation/bloc/airing_today_tv_bloc.dart';
 import 'package:tv/presentation/bloc/popular_tv_bloc.dart';
 import 'package:tv/presentation/bloc/top_rated_tv_bloc.dart';
@@ -115,6 +116,8 @@ class MyApp extends StatelessWidget {
               return CupertinoPageRoute(
                 builder: (_) => const SearchPage(),
               );
+            case SearchTvPage.ROUTE_NAME:
+              return CupertinoPageRoute(builder: (_) => const SearchTvPage());
             case WatchlistMoviesPage.ROUTE_NAME:
               return MaterialPageRoute(
                   builder: (_) => const WatchlistMoviesPage());

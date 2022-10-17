@@ -87,7 +87,7 @@ class _TvSeriesPageState extends State<TvSeriesPage> {
             onPressed: () {
               Navigator.pushNamed(
                 context,
-                SEARCH_ROUTE,
+                TV_SEARCH_ROUTE,
                 arguments: isMovie,
               );
             },
